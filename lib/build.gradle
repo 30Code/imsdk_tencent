@@ -3,12 +3,15 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.yangwb1259883028'
 android {
+
+    useLibrary 'org.apache.http.legacy'
+
     compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 20181130
+        versionCode 20181203
         versionName "3.3.2.v1"
     }
 
